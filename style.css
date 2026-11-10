@@ -1,0 +1,107 @@
+body {
+  background-color: #fce4ec;
+  color: #333;
+}
+
+.site-header {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.site-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#logo {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  background-color: #ffffff;
+  object-fit: cover;
+}
+
+.content-block {
+  background-color: #ffffff;
+}
+
+.contact-block {
+  max-width: 700px;
+}
+
+.section-title {
+  color: #e91e63;
+  border-bottom: 2px solid #e91e63;
+}
+
+.contact-link {
+  color: #c2185b;
+}
+
+.form-control,
+.form-select {
+  border-color: #f8bbd0;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+  border-color: #e91e63;
+  box-shadow: 0 0 0 0.2rem rgba(233, 30, 99, 0.25);
+}
+
+.form-check-input:checked {
+  background-color: #e91e63;
+  border-color: #e91e63;
+}
+
+.btn-save {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.btn-save:hover,
+.btn-save:focus {
+  background-color: #c2185b;
+  color: #ffffff;
+}
+
+.btn-save:disabled {
+  background-color: #f48fb1;
+  color: #ffffff;
+}
+
+.site-footer {
+  background-color: #e91e63;
+  color: #ffffff;
+}
+
+.footer-link {
+  color: #ffffff;
+}
+
+/* Попап */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.popup-overlay[hidden] {
+  display: none;
+}
+
+.popup-box {
+  width: 100%;
+  max-width: 520px;
+  max-height: 100%;
+  overflow-y: auto;
+  outline: none;
+}
+
+.popup-open {
+  overflow: hidden;
+}
